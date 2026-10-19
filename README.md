@@ -4,7 +4,7 @@ Universidad Anáhuac Puebla · Eliezer Lagunes, Michell Flores, Katia Gutierrez,
 
 Predicción del rendimiento de cebada de temporal 2025 (t/ha) de 59 parcelas en Hidalgo, Puebla y Tlaxcala, entrenando con 138 parcelas de rendimiento conocido y datos públicos: Sentinel-2, Landsat, Planet, precipitación CHIRPS, temperatura CHIRTS-ERA5 y topografía de INEGI.
 
-**Página de resultados:** https://eliezerlagunes-create.github.io/reto-agrocebada-no/
+**Página de resultados:** https://nimbus-pi-sandy.vercel.app
 
 ## Resultados
 
@@ -18,8 +18,7 @@ Predicción del rendimiento de cebada de temporal 2025 (t/ha) de 59 parcelas en 
 
 | Archivo | Qué es |
 |---|---|
-| `index.html`, `style.css`, `app.js` | Página de resultados (GitHub Pages) |
-| `pagina_*.csv`, `pagina_parcelas.geojson`, `graficas/` | Datos y gráficas que usa la página |
+| `pagina_*.csv`, `pagina_parcelas.geojson`, `graficas/` | Datos y gráficas que usa la página de resultados |
 | `No_prediccion.csv` | Predicción de las 59 parcelas (ID_POLIGONO, RENDIMIENTO_T_HA) |
 | `notebook/` | Notebook con todo el proceso: lectura de datos, variables, Spearman, comparación de modelos y predicciones |
 | `requirements.txt` | Librerías necesarias para correr el notebook |
